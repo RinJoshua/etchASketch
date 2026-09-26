@@ -1,0 +1,23 @@
+#main-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Takes up 80% of whichever viewport dimension is smaller (width vs height) */
+    width: 80vmin;
+    height: 80vmin;
+
+    /* Center container on the screen */
+    margin: 0  auto;
+
+    
+    padding-top:5%;
+}
+
+   
+.grid-section {
+    display:flex;
+    background-color: #2613d1;
+    border: 10px solid #d31414;
+    box-sizing: border-box;
+    width: 25%;
+    height:25%;
+}
